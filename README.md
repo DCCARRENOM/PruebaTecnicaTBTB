@@ -14,11 +14,11 @@ Los pasos pasa poner en funcionamiento la base de datos son:
 ## Segunda Parte: Interfaz de programación de Aplicación (API)
 La API fue desarrollada en el lenguaje de programación **Java** utilizando el framework **Spring boot** y se necesita del IDE **IntelliJ IDEA**, los pasos para la instalacion y puesta en funcionamiento del proyecto son los siguientes:
 1. Clonar el repositorio del proyecto, este contiene todos los archivos de la segunda y tercera parte.
-2. Una vez clonado, dentro de esta carpeta se encuentra el archivo **"build.gradle"** (En caso de ser requerido la dirección del archivo es la siguiente **\PruebaTecnicaTBTB\build.gradle**) hacer clic derecho en el archivo  y seleccionar la opción: **"Edit with IntelliJ IDEA**, esto abrira el IDE junto con el proyecto e instalará las dependencias necesarias.
-3. Ya abierto el proyecto e instaladas las dependencias, se procede a configurar el archivo **"application.properties"**, dentro de este reemplazar el valor de **"spring.datasource.username"** por el usuario creado al instalar PostgreSQL en su dispositvo y el de **"spring.datasource.password"** por la contraseña correspondiente al usuario creado al instalar PostgreSQL en su dispositvo. **NOTA:** se decidió utilizar el puerto 8090 de localhost para evitar inconvenientes con el puerto 8080 que se suele utilizar.
+2. Una vez clonado, dentro de esta carpeta se encuentra el archivo **"build.gradle"** (la dirección del archivo es la siguiente **\PruebaTecnicaTBTB\build.gradle**) hacer clic derecho en el archivo  y seleccionar la opción: **"Edit with IntelliJ IDEA**, esto abrira el IDE junto con el proyecto e instalará las dependencias necesarias.
+3. Ya abierto el proyecto e instaladas las dependencias, se procede a configurar el archivo **"application.properties"** (la dirección del archivo es la siguiente **\PruebaTecnicaTBTB\application.properties**), dentro de este reemplazar el valor de **"spring.datasource.username"** por el usuario creado al instalar PostgreSQL en su dispositivo y el de **"spring.datasource.password"** por la contraseña correspondiente al usuario creado al instalar PostgreSQL en su dispositivo. **NOTA:** se decidió utilizar el puerto 8090 de localhost para evitar inconvenientes con el puerto 8080 que se suele utilizar.
 4. Una vez se tiene configurado el archivo anterior ejecutar la clase **"PruebaTecnicaTBTBApplication"**, esto se logra haciendo clic derecho encima de la clase mencionada dentro de la lista que aparece a la izquierda dentro del IDE, la cual pondrá en funcionamiento el proyecto.
 <img src="./screenshots/RunApp.png">
-5. Se crearon los CRUD para dos tablas de la base de datos: **clients y product**, las direcciones para acceder a los endpoints utilizando **Postman** son las siguientes:
+5. Se crearon los CRUD para dos tablas de la base de datos: **clients y product** , las direcciones para acceder a los endpoints utilizando **Postman** son las siguientes:
 
 **Tabla clients**
 1. Crear un nuevo registro:
@@ -66,10 +66,11 @@ La API fue desarrollada en el lenguaje de programación **Java** utilizando el f
 5. Delete: curl --location --request DELETE 'http://localhost:8090/product/delete/7'
 
 ## Tercera Parte: Aplicación Web
-Para la tercera parte, se realizaron dos vistas que despliegan la información proporcionada según lo requerido. Esta aplicación Web fue desarrollada utilizando el framework **React**. El proyecto se encuentra en la carpeta **"prueba-tecnica-parte3"** la cual se esta ubicada dentro del repositorio anteriormente clonado. Los pasos para la instalación y puesta en funcionamiento del proyecto son los siguientes:
+Para la tercera parte, se realizaron dos vistas que despliegan la información proporcionada según lo requerido. Esta aplicación Web fue desarrollada utilizando el framework **React**. El proyecto se encuentra en la carpeta **"prueba-tecnica-parte3"** la cual esta ubicada dentro del repositorio anteriormente clonado. Los pasos para la instalación y puesta en funcionamiento del proyecto son los siguientes:
 1. Abrir la carpeta **"prueba-tecnica-parte3"** con **Visual Studio Code**.
 2. Una vez abierta la carpeta, abrir un nuevo terminal dentro de Visual Studio y ejecutar el comando: **"npm install"**, el cual instalara las dependencias necesarias.
 3. Ya instaladas las dependencias ejecutar nuevamente dentro del terminal el comando **"npm start"** el cual pondra en funcionamiento el proyecto y se desplegará en el navegador.
 4. Aquí se encontrada una vista Home que presentará botones para cada una de las vistas creadas, una desplegando la información de los usuarios en Cards y la otra utilizando una tabla donde es posible filtrar a los usuarios por nombre,correo o ciudad.
+
 
 
