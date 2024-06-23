@@ -1,6 +1,6 @@
 # Prueba técnica TBTB Daniel Carreño
 ## Primera Parte: Base de datos 
-La carpeta "scripts" que se encuentra en el repositorio contiene los archivos .sql correspondientes a esta parte.
+La carpeta "scripts" que se encuentra en el repositorio contiene los archivos.sql correspondientes a esta parte.
 La base de datos trabajada fue creada con el motor **PostgreSQL**.
 Dentro de la carpeta "scripts" se incluye un archivo llamado **"Prueba técnica TBTB Parte 1.PDF"** en donde se encuentras los modelos entidad-relación y relacional junto con los tipos de dato de la base de datos creada.
 Los pasos para poner en funcionamiento la base de datos son:
