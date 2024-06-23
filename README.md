@@ -74,7 +74,7 @@ Para la tercera parte, se realizaron dos vistas que despliegan la información p
 <img src="./screenshots/Home.png">
 
 <img src="./screenshots/Cards.png">
-Para filtrar se selecciona el atributo por el cual se desea buscar en la lista desplegable de la derecha y luego se ingresa el texto en el campo de texto de la derecha
+Para filtrar se selecciona el atributo por el cual se desea buscar en la lista desplegable de la derecha y luego se ingresa el texto en el campo de texto de la derecha.
 <img src="./screenshots/FilterTable.png">
 
 
