@@ -3,7 +3,7 @@
 La carpeta "scripts" que se encuentra en el repositorio contiene los archivos .sql correspondientes a esta parte.
 La base de datos trabajada fue creada con el motor **PostgreSQL**.
 Dentro de la carpeta "scripts" se incluye un archivo llamado **"Prueba técnica TBTB Parte 1.PDF"** en donde se encuentras los modelos entidad-relación y relacional junto con los tipos de dato de la base de datos creada.
-Los pasos pasa poner en funcionamiento la base de datos son:
+Los pasos para poner en funcionamiento la base de datos son:
 1. Crear dentro del motor de PostgreSQL una base de datos con el nombre: **"danielcarrenopruebatecnica"**.
 2. Una vez creada la base de datos, ejecutar el script llamado **"Creacion.sql"** el cuál se encargará de generar las tablas clients ,orders, product y order_product.
 3. Ya creadas las tablas, se procede a utilizar el script **"Transacciones.sql"**, el cual contiene las operaciones requeridas sobre la base de datos, **PRIMERO** ejecutar las líneas correspondientes a la inserción de registros, las cuales se encuentran al inicio del script.
