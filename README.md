@@ -71,6 +71,11 @@ Para la tercera parte, se realizaron dos vistas que despliegan la información p
 2. Una vez abierta la carpeta, abrir un nuevo terminal dentro de Visual Studio y ejecutar el comando: **"npm install"**, el cual instalara las dependencias necesarias.
 3. Ya instaladas las dependencias ejecutar nuevamente dentro del terminal el comando **"npm start"** el cual pondra en funcionamiento el proyecto y se desplegará en el navegador.
 4. Aquí se encontrada una vista Home que presentará botones para cada una de las vistas creadas, una desplegando la información de los usuarios en Cards y la otra utilizando una tabla donde es posible filtrar a los usuarios por nombre,correo o ciudad.
+<img src="./screenshots/Home.png">
+
+<img src="./screenshots/Cards.png">
+Para filtrar se selecciona el atributo por el cual se desea buscar en la lista desplegable de la derecha y luego se ingresa el texto en el campo de texto de la derecha
+<img src="./screenshots/FilterTable.png">
 
 
 
